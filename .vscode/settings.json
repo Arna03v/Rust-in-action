@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./src/ch-5/cpu/cpu-adder/Cargo.toml"
+    ]
+}
