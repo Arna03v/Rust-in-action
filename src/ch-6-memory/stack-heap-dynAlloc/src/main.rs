@@ -81,12 +81,26 @@ fn allocating_and_deallocating(){
     let d = Box::new(1);
     let res2 = *b + *c + *d; // = 3
 
-
-
 }
 
-// a function to multiple elemnets of vector * 2
+// Remember that the stack and the heap are
+// conceptual abstractions only. These do not exist as physical partitions of your com-
+// puter’s memory. What accounts for their different performance characteristics?
+// Accessing data on the stack is fast because a function’s local variables, which are
+// allocated on the stack, reside next to each other in RAM. This is sometimes referred
+// to as a contiguous layout.
+// A contiguous layout is cache-friendly. Alternatively, variables allocated on the heap
+// are unlikely to reside next to each other. Moreover, accessing data on the heap
+// involves dereferencing the pointer. That implies a page table lookup and a trip to
+// main memory.
 
-fn dynamic_allocation_of_memory(){
-    
-}
+
+fn dyanamic_allocation(){
+    // when the memory of a program gets over, it requests for more memory from the OS
+    // using a unix sys call called alloc()
+    // Program can release memory that isnt being used to the OS using the call free()
+
+    // CLOSURES
+    // A closure is a function that is defined in line and can access variables from its sur-
+    // rounding scope. These are often called anonymous or lambda functions.
+}   
