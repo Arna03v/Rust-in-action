@@ -104,3 +104,4 @@ fn dyanamic_allocation(){
     // A closure is a function that is defined in line and can access variables from its sur-
     // rounding scope. These are often called anonymous or lambda functions.
 }   
+
