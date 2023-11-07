@@ -12,3 +12,10 @@ Implementing a CPU emulator in multiple steps to establish that functions are al
 - Iteration 1 : Implementing an adder
 - Iteration 2 : Looping the adder to make a multiplier, showing us an instruction can be repeated multiple times
 - Iteration 3 : Implementing a stack to call and return addresses using a stack and stack pointer to execute multiple instructions
+
+## Chapter 6
+Teaches the reader about memory in Rust
+- Stack
+- Heap
+- Dyanamic allocator
+- Virtual memory
